@@ -1,0 +1,180 @@
+  
+body {
+  background-color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; /* 100% de la hauteur visible de l"cran réel */
+  margin: 0;
+}
+
+
+
+a{
+  text-decoration:none;
+  white-space:nowrap;
+  color:inherit;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+button {
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 3px 16px;
+  line-height: 27px; /* hauteur de ligne de texte */
+  height: 36px; /* hauteur des bouttons */
+  min-width: 54px; /* largeur minimale des bouttons */
+  text-align: center;
+  cursor: pointer; /* remplce la fleche de souris par une main */
+}
+
+
+/* PARTIE HEADER */
+
+
+header {
+  color: rgba(0,0,0,.87);
+  font-size: 13px;
+  text-decoration: none;
+  /* min-height: 50px; */
+  margin : 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .lien{
+  margin: 0 15px; /* espacement horizontal des liens de header */
+}
+
+#img_matrix{
+  width: 24px;
+  fill:rgb(93,99,104);
+}
+
+
+.blueBtn{
+  background: #1a73e8;
+  border: 1px solid transparent;
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  color: #FFFFFF;
+}
+
+.blueBtn:hover{
+  background-color:  #4386dd;
+  box-shadow: 1px 1px 1px  #4386dd;
+}
+
+
+/* PARTIE SECTION CENTRALE */
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+
+article{
+  margin: 10px 0; 
+}
+
+
+#cartouche{
+  border-radius: 50px;
+  border: 1px solid   #CCCCCC;
+padding: 5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+#cartouche:hover{
+  box-shadow: 1px 2px 10px #CCCCCC;
+}
+
+
+.img_search{
+  width: 20px;
+  fill:#70757a;
+  margin: 0 10px;
+}
+
+input{
+  margin: 0 10px;
+  width: 360px;
+  height: 34px;
+  border: none;
+}
+
+
+.img_micro{
+  width: 24px;
+  margin: 0 10px;
+}
+
+
+.greyBtn{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  font-family: arial,sans-serif;
+  color: #3c4043;
+
+}
+
+.greyBtn:hover{
+  border: 1px solid  #888888;
+  box-shadow: 1px 2px 5px #888888;
+  
+}
+
+/* PARTIE FOOTER */
+
+footer {
+  font-size: 15px;
+  color: #70757a;
+  min-height: 200px;
+  margin : 0;
+  background-color: rgb(242, 242, 242);
+  color :rgb(120, 124, 129)
+}
+
+footer .lien{
+  margin: 15px; /* espacement horizontal et vertical des liens de footer */
+  white-space:nowrap;
+}
+
+.gauche, .droite{
+  margin: 15px; /* espacement horizontal et vertical des liens de footer */
+  white-space:nowrap;
+}
+
+.gauche-droite{
+  display: flex;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+.central{
+  text-align: center;
+}
+
+.img_feuille{
+  width: 12px;
+}
+
+.liens{
+
+}
